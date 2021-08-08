@@ -1,9 +1,9 @@
 {
-  "title": "Delog",
-  "siteUrl": "https://delog-w3layouts.netlify.com/",
-  "description": "Delog, a GatsbyJS and Netlify CMS starter for Designers and Developers",
+  "title": "Alexis Mora Blog",
+  "siteUrl": "https://alexis-mora.netlify.app/",
+  "description": "Un blog hecho para compartir mis conocimientos dev.",
   "home": {
-    "title": "Hi! I'm Delog",
-    "description": "I have been specifically designed to become a digital home for designers and developers, help them build amazing professional looking websites with ease. You don't have to worry about nitty gritty of web hosting services to run a blog and yet take full advantage of CMS to manage content :)"
+    "title": "Hola, yo soy Alexis Mora",
+    "description": "Soy un desarrollador web full stack que quiere compartir en este espacio los conocimientos que ha generado a traves de sus experiencias en el mundo tech."
   }
 }
