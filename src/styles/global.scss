@@ -9,16 +9,16 @@ body {
   margin-top: 0
 }
 body.light {
-  --primary-color: #381696;
+  --primary-color: #1CBC9C;
   --primary-text-color: #fff;
-  --featured-bg: #493b8a;
+  --featured-bg: #148479;
   --featured-text: #fff;
-  --secondary-color: #10072b;
+  --secondary-color: #148479;
   --background: #fff;
   --site-header: var(--background);
   --card-bg: #fff;
   --card-bdr: #eee;
-  --card-shadow: #d5d5d5;
+  --card-shadow: #9b9a9a;
   --btn-bg: var(--background);
   --btn-bdr: #d3d6e7;
   --btn-text-color: #868892;
@@ -29,23 +29,23 @@ body.light {
   --input-bg: var(--background);
 }
 body.dark {
-  --primary-color: #9984d5;
+  --primary-color: #1CBC9C;
   --primary-text-color: #fff;
-  --featured-bg: #66578d;
+  --featured-bg: #148479;
   --featured-text: #fff;
-  --secondary-color: #66578d;
-  --background: #0A041A;
+  --secondary-color: #148479;
+  --background: #1b283d;
   --text-color: rgba(255,255,255,0.88);
-  --text-secondary-color: rgba(255,255,255,0.66);
+  --text-secondary-color: #ffffff;
   --site-header: var(--background);
-  --card-bg: #181326;
-  --card-bdr: #181326;
-  --card-shadow: #020204;
+  --card-bg: #0e1827;
+  --card-bdr: #0e1827;
+  --card-shadow: #090913;
   --btn-bg: var(--background);
-  --btn-bdr: #d3d6e7;
-  --btn-text-color: #868892;
+  --btn-bdr: #DFD4C4;
+  --btn-text-color: #DFD4C4;
   --btn-hover-bg: var(--btn-bdr);
-  --btn-hover-text-color: #00062b;
+  --btn-hover-text-color: #148479;
   --contact-bg: var(--card-shadow);
   --contact-bdr: var(--card-bg);
   --input-bg: var(--card-bg);
