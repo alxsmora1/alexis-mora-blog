@@ -6,7 +6,7 @@ title: Alexis Mora Software Company
 metaDescription: 'Blogging, Tech, Code, Dev'
 thumbnail: /assets/AMSC.png
 ---
-Durante mucho tiempo en el que estuve en la universidad me mantuve la idea de crear un blog de desarrollo, y mi amor por la literatura me llevo a crear varios productos de blogging. Estos fracasaron debido a la falta de tiempo e interés que surgieron o a la absurda carga de trabajo que nos impone la universidad. De manera general cuando vemos que una de nuestras mejores no tiene el crecimiento exponencial o la aceptación que esperamos nos vamos desilusionando poco a poco. Asi que abandoné esa idea y me puse a ver la serie *The Office* de donde proviene el título de este post.
+Durante mucho tiempo en el que estuve en la universidad mantuve la idea de crear un blog de desarrollo, y mi amor por la literatura me llevo a crear varios productos de blogging. Estos fracasaron debido a la falta de tiempo e interés que surgieron o a la absurda carga de trabajo que nos impone la universidad. De manera general cuando vemos que una de nuestras mejores ideas o proyectos no tiene el crecimiento exponencial o la aceptación que esperamos nos vamos desilusionando poco a poco. Asi que abandoné esa idea y me puse a ver la serie *The Office* de donde proviene el título de este post.
 
 Ahora mismo, tres años y medio después de salir de la universidad e iniciando mi segundo trabajo profesional en la industria del desarrollo de software. He decidido a empezar a crecer mi marca personal y a cumplir ese sueño que tanto he postergado.
 
