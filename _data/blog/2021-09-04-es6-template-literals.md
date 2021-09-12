@@ -16,12 +16,16 @@ La forma básica de uso es declarar una variable que los contenga:
 let text = `Hello World!`;
 ```
 
+
+
 Podemos usar variables dentro de los template literals:
 
 ```javascript
 let year = 2021;
 let text = `The year of publication of this article is ${year}`;
 ```
+
+
 
 Podemos generar estructuras de código HTML:
 
@@ -33,6 +37,8 @@ let renderHTML = `
 `;
 ```
 
+
+
 Podemos también usar funciones dentro de los template literals:
 
 ```javascript
@@ -42,6 +48,8 @@ const rndNumber = () => {
 
 let text = `The random number is: ${rndNumber()}`;
 ```
+
+
 
 Una gran ventaja sobre las cadenas comunes es que podemos utilizar cualquier símbolo y no tenemos necesidad de escapar símbolos para que no tengan conflicto con nuestro código:
 
