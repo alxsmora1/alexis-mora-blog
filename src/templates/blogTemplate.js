@@ -12,9 +12,9 @@ export default function Template({
   const { frontmatter, html } = markdownRemark;
 
   let disqusConfig = {
-    url: frontmatter.path,
-    identifier: frontmatter.title,
-    title: frontmatter.title,
+    url: markdownRemark.frontmatter.path,
+    identifier: markdownRemark.frontmatter.title,
+    title: markdownRemark.frontmatter.title,
   }
 
   return (
