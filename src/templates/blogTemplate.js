@@ -11,8 +11,8 @@ export default function Template({
   const { siteMetadata } = site;
   const { frontmatter, html } = markdownRemark;
   let disqusConfig = {
-    url: frontmatter.path,
-    identifier: frontmatter.title,
+    url: 'https://alexis-mora.netlify.app' + frontmatter.path,
+    identifier: frontmatter.id,
     title: frontmatter.title,
   }
 
@@ -46,7 +46,7 @@ export default function Template({
             dangerouslySetInnerHTML={{ __html: html }}
           />
         </article>
-        <CommentCount config={disqusConfig} placeholder={'...'} />
+        <br /><br />
         <Disqus config={disqusConfig} />
       </div>
     </Layout>
