@@ -14,6 +14,8 @@ module.exports = {
         name: `markdown-pages`,
         path: `${__dirname}/_data`
       },
+    },
+    {
       resolve: `gatsby-plugin-disqus`,
       options: {
         shortname: `https-alexis-mora-netlify-app`
