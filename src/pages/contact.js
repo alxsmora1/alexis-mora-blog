@@ -28,10 +28,12 @@ const ContactPage = ({ data: { site } }) => {
           <form
             className="form-container"
             name="contact"
+            action="/contact"
             method="post"
             netlify-honeypot="bot-field"
             data-netlify="true"
           >
+            <input type="hidden" name="name-form" value="contact" />
             <input type="hidden" name="bot-field" />
             <div>
               <label htmlFor="name">Nombre</label>
