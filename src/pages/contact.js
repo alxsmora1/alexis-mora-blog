@@ -7,7 +7,7 @@ const ContactPage = ({ data: { site } }) => {
   const [datos, setDatos] = useState({
     name: "",
     email: "",
-    subjet: "",
+    subject: "",
     message: ""
   });
 
@@ -16,6 +16,7 @@ const ContactPage = ({ data: { site } }) => {
       ...datos,
       [event.target.name]: event.target.value
     });
+    console.log(datos);
   };
 
   const handleSubmit = e => {
@@ -78,6 +79,7 @@ const ContactPage = ({ data: { site } }) => {
                 type="email"
                 name="email"
                 id="email"
+                autoComplete="off"
                 onChange={handleInputChange}
               />
             </div>
