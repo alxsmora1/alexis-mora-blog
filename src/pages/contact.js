@@ -16,15 +16,18 @@ const ContactPage = ({ data: { site } }) => {
       ...datos,
       [event.target.name]: event.target.value
     });
-    console.log(datos);
   };
 
   const handleSubmit = e => {
     e.preventDefault();
+
+    const form =  document.getElementById("contact-form");
+    let  formData = new FormData(form);
+
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: new URLSearchParams(datos).toString()
+      body: new URLSearchParams(formData).toString()
     })
       .then(() =>
         alert("Gracias, me pondre en contacto lo más pronto posible!")
@@ -56,6 +59,7 @@ const ContactPage = ({ data: { site } }) => {
           <form
             className="form-container"
             name="contact"
+            id="contact-form"
             action="/contact"
             method="post"
             netlify-honeypot="bot-field"
