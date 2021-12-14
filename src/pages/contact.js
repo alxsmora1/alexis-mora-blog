@@ -1,9 +1,36 @@
-import React from "react";
+import React, { useState } from "react";
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../components/layout";
 
 const ContactPage = ({ data: { site } }) => {
+  const [datos, setDatos] = useState({
+    name: "",
+    email: "",
+    subjet: "",
+    message: ""
+  });
+
+  const handleInputChange = event => {
+    setDatos({
+      ...datos,
+      [event.target.name]: event.target.value
+    });
+  };
+
+  const handleSubmit = e => {
+    e.preventDefault();
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(datos).toString()
+    })
+      .then(() =>
+        alert("Gracias, me pondre en contacto lo más pronto posible!")
+      )
+      .catch(error => alert(error));
+  };
+
   return (
     <Layout>
       <Helmet>
@@ -32,24 +59,44 @@ const ContactPage = ({ data: { site } }) => {
             method="post"
             netlify-honeypot="bot-field"
             data-netlify="true"
+            onSubmit={handleSubmit}
           >
             <input type="hidden" name="name-form" value="contact" />
             <input type="hidden" name="bot-field" />
             <div>
               <label htmlFor="name">Nombre</label>
-              <input type="text" name="name" id="name" />
+              <input
+                type="text"
+                name="name"
+                id="name"
+                onChange={handleInputChange}
+              />
             </div>
             <div>
               <label htmlFor="email">Email</label>
-              <input type="email" name="email" id="email" />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                onChange={handleInputChange}
+              />
             </div>
             <div>
               <label htmlFor="subject">Asunto</label>
-              <input type="text" name="subject" id="subject" />
+              <input
+                type="text"
+                name="subject"
+                id="subject"
+                onChange={handleInputChange}
+              />
             </div>
             <div>
               <label htmlFor="message">Mensaje</label>
-              <textarea name="message" id="message"></textarea>
+              <textarea
+                name="message"
+                id="message"
+                onChange={handleInputChange}
+              ></textarea>
             </div>
             <div style={{ display: "flex", justifyContent: "flex-end" }}>
               <input
