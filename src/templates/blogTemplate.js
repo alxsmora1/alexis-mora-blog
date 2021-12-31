@@ -2,7 +2,7 @@ import React from "react";
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../components/layout";
-import { Disqus } from 'gatsby-plugin-disqus'
+import { Disqus } from "gatsby-plugin-disqus";
 
 export default function Template({
   data // this prop will be injected by the GraphQL query below.
@@ -11,10 +11,10 @@ export default function Template({
   const { siteMetadata } = site;
   const { frontmatter, html } = markdownRemark;
   let disqusConfig = {
-    url: 'https://alexis-mora.netlify.app' + frontmatter.path,
+    url: "https://alexis-mora.netlify.app" + frontmatter.path,
     identifier: frontmatter.id,
-    title: frontmatter.title,
-  }
+    title: frontmatter.title
+  };
 
   return (
     <Layout>
@@ -46,7 +46,8 @@ export default function Template({
             dangerouslySetInnerHTML={{ __html: html }}
           />
         </article>
-        <br /><br />
+        <br />
+        <br />
         <Disqus config={disqusConfig} />
       </div>
     </Layout>

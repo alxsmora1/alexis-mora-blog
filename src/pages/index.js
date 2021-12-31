@@ -20,6 +20,7 @@ const IndexPage = ({
       <Helmet>
         <title>{site.siteMetadata.title}</title>
         <meta name="description" content={site.siteMetadata.description} />
+        <script data-ad-client="ca-pub-7069387982684792" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       </Helmet>
       <HeroHeader />
       <h2>Blog Posts &darr;</h2>
