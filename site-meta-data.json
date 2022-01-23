@@ -1,9 +1,9 @@
 {
   "title": "Alexis Mora Blog",
-  "siteUrl": "https://alexis-mora.netlify.app/",
-  "description": "Un blog hecho para compartir mis conocimientos dev.",
+  "siteUrl": "https://alexis-mora.dev/",
+  "description": "Un blog hecho para compartir mis conocimientos dev",
   "home": {
     "title": "Hola, soy Alexis Mora",
-    "description": "Un desarrollador web full stack que quiere compartir en este espacio los conocimientos que ha generado a traves de sus experiencias en el mundo tech."
+    "description": "Un desarrollador web full stack que quiere compartir en este espacio los conocimientos que ha generado a traves de sus experiencias en el mundo tech"
   }
 }
