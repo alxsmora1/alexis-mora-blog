@@ -4,7 +4,7 @@ path: /editores-codigo-principiantes-1
 date: 2022-01-23T20:01:06.849Z
 title: Editores de código para principiantes pt. 1
 metaDescription: 'Que editor de código elegir para principiantes, mejores editores de código'
-thumbnail: /assets/Covers blog.png
+thumbnail: /assets/arnold-francisca.jpg
 ---
 Durante los años que he dedicado tanto al estudio como al trabajo profesional en el desarrollo de software, he probado muchas herramientas para diversas situaciones y mejorar la productividad.
 
