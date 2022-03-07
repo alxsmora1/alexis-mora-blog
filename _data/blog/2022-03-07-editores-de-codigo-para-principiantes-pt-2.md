@@ -4,7 +4,7 @@ path: /editores-codigo-principiantes-2
 date: 2022-03-07T19:30:23.267Z
 title: Editores de codigo para principiantes pt. 2
 metaDescription: 'VSCode, Vim, NeoVim'
-thumbnail: /assets/florian-olivo-4hbJ-eymZ1o-unsplash (1).jpg
+thumbnail: /assets/mohammad-rahmani-N5bT5RctFZ8-unsplash (1).jpg
 ---
 <!--StartFragment-->
 
