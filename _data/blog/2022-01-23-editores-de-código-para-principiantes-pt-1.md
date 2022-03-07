@@ -46,4 +46,4 @@ Una recomendación para aquellos que se decidan a configurarlo es hacerle un for
 
 En la parte 2 subiré los que son los dos editores de código que más suelo usar siempre, en mi trabajo y durante mis proyectos personales.
 
-[Editores para principiantes parte 2](https://alexis-mora.dev/editores-codigo-principiantes-1)
+[Editores para principiantes parte 2](https://alexis-mora.dev/editores-codigo-principiantes-2)
