@@ -18,6 +18,8 @@ Entre los puntos fuertes con los que cuenta son su facilidad para poder crear es
 
 Entre los puntos débiles que encuentras mientras lo usas son que al tratarse de un editor basado en Electron puede que para los equipos con menores recursos les cueste más correr este editor y tendría un desempeño más lento.
 
+[Sitio de Visual Studio Code](https://code.visualstudio.com/)
+
 ## **Vim**
 
 En este punto tuve un conflicto interno, pues durante los años que he usado Linux lo use al inicio con Emacs y luego con Vim, por lo cual no sabia cual de los dos había impactado más durante mis primeras experiencias en Linux.
@@ -28,12 +30,16 @@ Como todo desarrollador que se enfrenta a la terminal por primera vez siempre va
 
 Si pudiera mencionar algo que no me gusta del todo en Vim es su configuración inicial y la forma en la que tienes que ir modificando .vimrc.
 
+[Sitio de Vim](https://www.vim.org/)
+
 ## **Neovim**
 
 Es este puesto voy a hacer bastante conciso, Neovim es una evolución de Vim con las mejoras que había propuesto la comunidad, un desarrollo desde un punto del tiempo más moderno, dado que el código de Vim a la actualidad se hace bastante complejo de manipular, por efecto del tiempo sobre el código base.
 
-Las mejoras destacables de Neovim sobre Vim, son una configuración inicial más amigable, que el código base es más fácil de modificar, la carga de plugins se han vuelto asíncronos (lo cual desde Vim 8 ya es posible también) y que es mucho más fácil de configurar.
+Las mejoras destacables de Neovim sobre Vim, son una configuración por defecto más amigable, que el código base es más fácil de modificar, la carga de plugins se han vuelto asíncronos (lo cual desde Vim 8 ya es posible también) y que es mucho más fácil de configurar.
 
 Mi recomendación es que si eliges Vim para iniciar en los editores de código, o si bien quieres aprenderlo, te pases directamente a Neovim.
+
+[Sitio de Neovim](https://neovim.io/)
 
 Para finalizar este post, estoy preparando uno con la configuración para **Neovim**, junto con los plugins que suelo utilizar en mis horas de desarrollo web del día a día.
