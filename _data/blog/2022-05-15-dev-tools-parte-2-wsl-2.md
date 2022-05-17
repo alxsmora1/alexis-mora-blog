@@ -4,7 +4,7 @@ path: /dev-tools-parte-2-wsl2
 date: 2022-05-15T07:45:45.672Z
 title: 'DEV Tools parte 2: WSL 2'
 metaDescription: 'Linux, Developer tools, Windows, Setup'
-thumbnail: /assets/Screenshot 2022-05-14 165846.png
+thumbnail: /assets/Screenshot 2022-05-14 165846.jpg
 ---
 <!--StartFragment-->
 
