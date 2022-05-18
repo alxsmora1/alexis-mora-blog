@@ -6,7 +6,7 @@ title: 'DEV Tools parte 2: WSL 2'
 metaDescription: 'Linux, Developer tools, Windows, Setup'
 thumbnail: /assets/Screenshot2022-05-14.jpg
 ---
-Usar Linulx en nuestro PC puede tener algunos inconvenientes, que con el tiempo se han ido solucionando, pero que pueden quitarnos de la mente la idea de una PC con **Linux**. Entre los desafios principales de tener Linux, fuera de su curva de aprendizaje y dificultad de configuración, además de la resistencia al cambio si venimos de Windows son:
+Usar Linux en nuestro PC puede tener algunos inconvenientes, que con el tiempo se han ido solucionando, pero que pueden quitarnos de la mente la idea de una PC con **Linux**. Entre los desafios principales de tener Linux, fuera de su curva de aprendizaje y dificultad de configuración, además de la resistencia al cambio si venimos de Windows son:
 
 * Dificultad para encontrar o usar algunos drivers.
 * Compatibilidad con aplicaciones.
