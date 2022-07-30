@@ -63,6 +63,7 @@ const ContactPage = ({ data: { site } }) => {
             action="/contact"
             method="post"
             netlify-honeypot="bot-field"
+            data-netlify-recaptcha="true"
             data-netlify="true"
             onSubmit={handleSubmit}
           >
