@@ -104,6 +104,7 @@ const ContactPage = ({ data: { site } }) => {
                 onChange={handleInputChange}
               ></textarea>
             </div>
+            <div data-netlify-recaptcha="true"></div>
             <div style={{ display: "flex", justifyContent: "flex-end" }}>
               <input
                 type="submit"
