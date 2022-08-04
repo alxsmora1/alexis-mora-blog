@@ -4,7 +4,7 @@ path: /que-me-hubiera-gustando-saber-primero
 date: 2022-08-04T00:46:41.546Z
 title: Que me hubiera gustado saber primero de programación
 metaDescription: 'Developer, Typescript, Python '
-thumbnail: /assets/joshua-woroniecki-lzh3hPtJz9c-unsplash.jpg
+thumbnail: /assets/joshua-woroniecki-lzh3hPtJz9c-unsplash (1).jpg
 ---
 Después de casi cinco años trabajando profesionalmente como desarrollador de software, he pensado en las veces que he cometido errores, mis éxitos y las pequeñas cosas que he hecho las cuales me hacen sentir orgulloso y muy emocionado de pertenecer al mundo Tech. Desde mis inicios con proyectos muy simples, hasta solo seguir sin pensar tanto en las tareas que me asignaban en el trabajo, hasta disfrutar de hacer proyectos personales y siempre agregar un extra de valor y en la medida de lo posible mi propio criterio como desarrollador en las tareas de mi trabajo. Me he dado cuenta del crecimiento personal y profesional que he tenido con el paso del tiempo, a diferencia de otras profesiones en esta puedes ver un gran cambio en poco tiempo y como se va creciendo constantemente a través del aprendizaje continuo y la preparación.
 
