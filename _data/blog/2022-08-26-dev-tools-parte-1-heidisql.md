@@ -8,7 +8,7 @@ thumbnail: /assets/heidisql.jpg
 ---
 Para comenzar esta serie de artículos en los que hablaré de herramientas de desarrollo. Estás herramientas nos harán el día a día y nuestro flujo de desarrollo más ligero e incluso acelerarán nuestra productividad.
 
-Dentro de los ecosistemas de nuestro stack de desarrollo en especial en el lado del backend siempre vamos a necesitar una base de datos ya sea relacional o no relacional. Por esta razón
+Dentro de los ecosistemas de nuestro stack de desarrollo en especial en el lado del backend siempre vamos a necesitar una base de datos ya sea relacional o no relacional. Por esta razón:
 
 HeidiSQL es un gestor y administrador de conexiones a bases de datos, destaca por soportar PostgreSQL, MariaDB, MySQL y Microsoft SQL Server. Para hacer estás conexiones contamos con TCP, SSH y sockets, lo cual hace muy versátil conectarnos tanto a hostings y servidores.\
 Puedes manejar múltiples sesiones de diferentes bases de datos incluso en la misma ventana, dando así una capacidad de trabajar más rápido con diferentes ambientes. Aunque durante mucho tiempo preferí usar la herramienta MySQL Workbench/pgAdmin y algunas plugins para vscode, pero al descubrir esta herramienta he logrado mejorar mi productividad y mis resultados positivos en mi trabajo.
@@ -33,4 +33,4 @@ Algunas de las cosas que no me gustan o creo deberían agregar
 
 Después de estos puntos me gustaría agregar que es una herramienta muy versátil y que te ahorrará mucho tiempo y recursos en tu equipo, por lo cual yo puedo decir que es útil en proyectos personales, así como profesionales.
 
-Nos vemos en otro artículo o recomendación 👋
+Hasta pronto 👋
