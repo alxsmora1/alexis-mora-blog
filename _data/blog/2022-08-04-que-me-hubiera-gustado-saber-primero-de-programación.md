@@ -2,7 +2,7 @@
 template: BlogPost
 path: /que-me-hubiera-gustando-saber-primero
 date: 2022-08-04T00:46:41.546Z
-title: Que me hubiera gustado saber primero de programación
+title: Que me hubiera gustado saber primero
 metaDescription: 'Developer, Typescript, Python '
 thumbnail: /assets/joshua-woroniecki-lzh3hPtJz9c-unsplash.jpg
 ---
@@ -28,6 +28,10 @@ JavaScript es uno de los lenguajes que más amo y odio, pero que en muchas ocasi
 
 Es uno de mis lenguajes de backend preferidos junto a **NodeJS.** **Python** es un todo en uno y sin necesidad de compilador, al ser un lenguaje interpretado muchos pensaran que es lento, lo cual no es así. Para mí es la apuesta más segura para obtener empleo en 2022 y el futuro, en especial si tomas la ruta del machine learning, la ciencia de datos o la inteligencia artificial. Sí eres como yo y te apasiona el desarrollo web podrás encontrar en Python varios frameworks de backend, perfectos para crear tus APIS, microservicios e incluso increíbles aplicaciones monolíticas. Dentro de mi stack  React TS y Python Flask no pueden faltar y en mi opinión son una increíble combinación. Desde videojuegos hasta programar microntroladores y microcomputadores como el Raspberry Pi.
 
-Si gustan saber dónde aprendí estas tecnologías de la manera más eficiente y en menos tiempo les puedo dejar enlaces a cursos que me han ayudado mucho, tanto gratuitos como de pago, en los comentarios. Aunque como siempre digo si lo que quieres es aprender bien, tienes que practicar, practicar y practicar.
+## **SQL**
+
+Este lenguaje como complementario y aprendiendo lo básico nos ayudara a manejar consultas a bases de datos. SQL es un lenguaje para bases de datos y comparte lo básico entre diversos motores de bases de datos relacionales comoMySQL,MariaDB, PostgreSQL y Windows SQL Server. Este nos ayudara si tenemos que trabajar con CRUD,APIso ORM en nuestros frameworks. Este fue uno de los primeros lenguajes que aprendí y que me ayudo a encontrar empleo comofullstack.
+
+Si gustaría saber dónde aprendí estas tecnologías de la manera más eficiente y en menos tiempo les puedo dejar enlaces a cursos que me han ayudado mucho, tanto gratuitos como de pago, en los comentarios. Aunque como siempre digo si lo que quieres es aprender bien, tienes que practicar, practicar y practicar.
 
 En los meses siguientes estaré subiendo videos de desarrollo, shorts con información del mundo Tech y cursos gratuitos en mi canal de [Youtube](https://www.youtube.com/channel/UCRrq6jmuCsdp-ANzpkvYLUQ).
