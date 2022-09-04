@@ -2,7 +2,7 @@
 template: BlogPost
 path: /devtools-parte-3-windows-terminal
 date: 2022-09-04T05:53:38.220Z
-title: 'Devtools parte 3:  Windows Terminal'
+title: 'Dev Tools parte 3:  Windows Terminal'
 metaDescription: 'Command-line, bash, linux, terminal, code, windows'
 thumbnail: /assets/windows_terminal.jpg
 ---
