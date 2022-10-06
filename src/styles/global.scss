@@ -27,6 +27,8 @@ body.light {
   --contact-bg: #f7f8fe;
   --contact-bdr: #d3d6e7;
   --input-bg: var(--background);
+  --text-color: #222222;
+  --text-color-hover: #ffffff;
 }
 body.dark {
   --primary-color: #1CBC9C;
@@ -49,6 +51,9 @@ body.dark {
   --contact-bg: var(--card-shadow);
   --contact-bdr: var(--card-bg);
   --input-bg: var(--card-bg);
+  --text-color: #ffffff;
+  --text-color-hover: #222222;
+
 }
 /* System Fonts as used by Medium and WordPress */
 body {
@@ -92,6 +97,45 @@ a {
     }
   }
 }
+
+.text-color {
+  color: var(--text-color);
+}
+
+.divider-custom.divider-color .divider-custom-line {
+  background-color: var(--text-color);
+}
+.divider-custom.divider-color .divider-custom-icon {
+  color: var(--text-color) !important;
+}
+
+.btn-social {
+  border: 0.125rem solid var(--text-color);
+}
+
+.btn-outline-color {
+  border-color: var(--text-color);
+}
+.btn-outline-color:hover {
+  background-color: var(--text-color-hover);
+  border-color: var(--text-color-hover);
+}
+.btn-outline-color:focus, .btn-outline-color.focus {
+  box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
+}
+.btn-outline-color.disabled, .btn-outline-color:disabled {
+  color: var(--text-color);
+  background-color: transparent;
+}
+.btn-outline-color:not(:disabled):not(.disabled):active, .btn-outline-color:not(:disabled):not(.disabled).active, .show > .btn-outline-color.dropdown-toggle {
+  color: var(--text-color);
+  background-color: var(--text-color-hover);
+  border-color: var(--text-color);
+}
+.btn-outline-color:not(:disabled):not(.disabled):active:focus, .btn-outline-color:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-color.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
+}
+
 .site-header {
   display: flex;
   justify-content: space-between;
@@ -171,7 +215,7 @@ a {
     margin-bottom: 32px;
     text-align: center;
   }
-  
+
 }
 .post-thumbnail {
   text-align: center;
@@ -298,13 +342,13 @@ a {
   }
 }
 /* Portrait and Landscape */
-@media only screen 
+@media only screen
 and (min-width: 768px) {
 .grids {
   grid-template-columns: 1fr 1fr;
 }
 }
-@media only screen 
+@media only screen
   and (min-width: 1024px) {
   .grids {
     grid-template-columns: 1fr 1fr 1fr;
