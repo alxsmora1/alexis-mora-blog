@@ -1,8 +1,8 @@
 ---
 template: BlogPost
-path: /que-me-hubiera-gustando-saber-primero
+path: /que-me-hubiera-gustando-aprender-primero
 date: 2022-08-04T00:46:41.546Z
-title: Que me hubiera gustado saber primero
+title: Que me hubiera gustado aprender primero
 metaDescription: 'Developer, Typescript, Python '
 thumbnail: /assets/joshua-woroniecki-lzh3hPtJz9c-unsplash.jpg
 ---
@@ -32,6 +32,6 @@ Es uno de mis lenguajes de backend preferidos junto a **NodeJS.** **Python** es 
 
 Este lenguaje como complementario y aprendiendo lo básico nos ayudara a manejar consultas a bases de datos. SQL es un lenguaje para bases de datos y comparte lo básico entre diversos motores de bases de datos relacionales como MySQL,MariaDB, PostgreSQL y Windows SQL Server. Este nos ayudara si tenemos que trabajar con CRUD, APIs o ORM en nuestros frameworks. Este fue uno de los primeros lenguajes que aprendí y que me ayudo a encontrar empleo como fullstack.
 
-Si gustaría saber dónde aprendí estas tecnologías de la manera más eficiente y en menos tiempo les puedo dejar enlaces a cursos que me han ayudado mucho, tanto gratuitos como de pago, en los comentarios. Aunque como siempre digo si lo que quieres es aprender bien, tienes que practicar, practicar y practicar.
+Si les gustaría saber dónde aprendí estas tecnologías de la manera más eficiente y en menos tiempo les puedo dejar enlaces a cursos que me han ayudado mucho, tanto gratuitos como de pago, en los comentarios. Aunque como siempre digo si lo que quieres es aprender bien, tienes que practicar, practicar y practicar.
 
 En los meses siguientes estaré subiendo videos de desarrollo, shorts con información del mundo Tech y cursos gratuitos en mi canal de [Youtube](https://www.youtube.com/channel/UCRrq6jmuCsdp-ANzpkvYLUQ).
