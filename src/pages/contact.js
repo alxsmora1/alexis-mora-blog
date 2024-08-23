@@ -48,7 +48,7 @@ const ContactPage = ({ data: { site } }) => {
         <div
           className="post-thumbnail"
           style={{
-            backgroundImage: `url('/assets/alexander-andrews-HgUDpaGPTEA-unsplash.jpg')`,
+            backgroundImage: `url('/assets/markus-winkler-Lp4jsVg8gpY-unsplash.jpg')`,
             marginBottom: 0
           }}
         >
