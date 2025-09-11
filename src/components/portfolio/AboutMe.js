@@ -34,8 +34,7 @@ import {
   faBootstrap,
   faSymfony,
   faDocker,
-  faGitAlt,
-  faGitHub
+  faGithub
 } from "@fortawesome/free-brands-svg-icons";
 
 const AboutMe = () => {
@@ -78,7 +77,7 @@ const AboutMe = () => {
       { name: 'Terminal', icon: faTerminal, color: '#4ec5e7' },
       { name: 'Docker', icon: faDocker, color: '#2496ed' },
       { name: 'Postman', icon: faCube, color: '#ff6c37' },
-      { name: 'GitHub Actions', icon: faGitHub, color: '#181717' },
+      { name: 'GitHub Actions', icon: faGithub, color: '#181717' },
     ]
   };
 
