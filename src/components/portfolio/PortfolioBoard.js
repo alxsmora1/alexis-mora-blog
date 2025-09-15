@@ -20,7 +20,7 @@ const PortfolioBoard = () => {
     <section class="page-section bg-primary portfolio" id="portfolio">
       <div class="container">
         <h2 class="page-section-heading text-center text-uppercase text-color mb-0">
-          Portfolio
+          Projects
         </h2>
         <div class="divider-custom divider-color">
           <div class="divider-custom-line"></div>

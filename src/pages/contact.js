@@ -24,6 +24,24 @@ const ContactPage = ({ data: { site } }) => {
     const form =  document.getElementById("contact-form");
     let  formData = new FormData(form);
 
+    if (formData.get("bot-field")) {
+      alert("Bot detected!");
+      return;
+    }
+
+    if (!formData.get("name") || !formData.get("email")) {
+      alert("Por favor llena todos los campos requeridos.");
+      return;
+    }
+    if (!formData.get("message")) {
+      alert("Por favor llena el mensaje.");
+      return;
+    }
+    if (!formData.get("subject")) {
+      alert("Por favor llena el asunto.");
+      return;
+    }
+
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -69,46 +87,49 @@ const ContactPage = ({ data: { site } }) => {
             <input type="hidden" name="name-form" value="contact" />
             <input type="hidden" name="bot-field" />
             <div>
-              <label htmlFor="name">Nombre</label>
+              <label htmlFor="name">Nombre<span className="text-danger">*</span></label>
               <input
                 type="text"
                 name="name"
                 id="name"
+                className="w-100"
                 onChange={handleInputChange}
               />
             </div>
             <div>
-              <label htmlFor="email">Email</label>
+              <label htmlFor="email">Email<span className="text-danger">*</span></label>
               <input
                 type="email"
                 name="email"
                 id="email"
                 autoComplete="off"
+                className="w-100"
                 onChange={handleInputChange}
               />
             </div>
             <div>
-              <label htmlFor="subject">Asunto</label>
+              <label htmlFor="subject">Asunto<span className="text-danger">*</span></label>
               <input
                 type="text"
                 name="subject"
                 id="subject"
+                className="w-100"
                 onChange={handleInputChange}
               />
             </div>
             <div>
-              <label htmlFor="message">Mensaje</label>
+              <label htmlFor="message">Mensaje<span className="text-danger">*</span></label>
               <textarea
                 name="message"
                 id="message"
+                className="w-100"
                 onChange={handleInputChange}
               ></textarea>
             </div>
-            <div style={{ display: "flex", justifyContent: "flex-end" }}>
+            <div className="justify-content-end d-flex">
               <input
                 type="submit"
-                className="button -primary"
-                style={{ marginRight: 0 }}
+                className="button btn-primary"
               />
             </div>
           </form>

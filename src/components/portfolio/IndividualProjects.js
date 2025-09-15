@@ -1,9 +1,10 @@
 import React from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPlus } from "@fortawesome/free-solid-svg-icons";
+import { faCircleInfo, faPlus } from "@fortawesome/free-solid-svg-icons";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const IndividualProjects = (props) => {
   const showModal = (title, body, image, skills, link, linkCode) => {
@@ -14,10 +15,11 @@ const IndividualProjects = (props) => {
     MySwal.fire({
       title: `<h1 class="text-center">${title}</h1>`,
       html:`
-        <img class="img-fluid text-center shadow rounded" src="${image}" alt="" />
-        <p class="lead text-center"><strong>Description</strong></p>
+        <img class="img-fluid text-center shadow rounded mb-2" src="${image}" alt="" />
+        <br><br>
+        <h5 class="text-center"><strong>Description</strong></h5>
         <p class="text-center lead"> ${body} </p>
-        <p class="lead text-center"><strong>Build with: </strong></P>
+        <h5 class="text-center"><strong>Build with: </strong></h5>
         ${listItems}
         <br><br>
         <div class="row">
@@ -25,7 +27,7 @@ const IndividualProjects = (props) => {
             <a class="btn btn-primary form-control" href="${link}" target="_BLANK"> <i class="fas fa-globe"></i> Live Project</a>
           </div>
           <div class="col-md-6">
-            <a class="btn btn-primary form-control" href="${linkCode}" target="_BLANK"> <i class="fab fa-github"></i> Github Code</a>
+            <a class="btn btn-primary form-control" href="${linkCode}" target="_BLANK"> <i class="fa-brands fa-github"></i> Github Code</a>
           </div>
         </div>
         `,
@@ -36,12 +38,13 @@ const IndividualProjects = (props) => {
 
   return(
     <div class="col-md-6 col-lg-4 mb-5">
-      <div class="portfolio-item mx-auto shadow h-100" data-aos="flip-left">
+      <div class="h-100">
+      <h6 class="text-center text-uppercase">{props.title}</h6>
+      <div class="portfolio-item mx-auto shadow" data-aos="flip-left">
         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
           <div class="portfolio-item-caption-content text-center text-white">
-            <p>{props.title}</p>
             <button
-              className="btn btn-success"
+              className="btn btn-info"
               onClick={() =>
                 showModal(
                   props.title,
@@ -53,12 +56,13 @@ const IndividualProjects = (props) => {
                 )
               }
             >
-              <FontAwesomeIcon icon={faPlus} /> Show More
+              <FontAwesomeIcon icon={faCircleInfo} /> Project Details
             </button>
           </div>
         </div>
         <img class="img-fluid" src={props.image} alt="" />
-      </div>
+        </div>
+        </div>
     </div>
   );
 }
