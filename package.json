@@ -53,30 +53,11 @@
   },
   "scripts": {
     "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
-    "build:netlify": "npm install --legacy-peer-deps && npm run build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
-  },
-  "resolutions": {
-    "remark-mdx": "^1.6.22",
-    "glob": "^7.2.0",
-    "minimatch": "^5.1.6",
-    "cheerio": "^1.0.14",
-    "undici": "^5.28.4",
-    "@mdx-js/util": "^1.6.22",
-    "remark-mdxjs": "^1.6.22"
-  },
-  "overrides": {
-    "remark-mdx": "^1.6.22",
-    "glob": "^7.2.0",
-    "minimatch": "^5.1.6",
-    "cheerio": "^1.0.14",
-    "undici": "^5.28.4",
-    "@mdx-js/util": "^1.6.22",
-    "remark-mdxjs": "^1.6.22"
   }
 }
