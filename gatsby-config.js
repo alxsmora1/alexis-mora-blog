@@ -42,11 +42,16 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        // The property ID; the tracking code won't be generated without it. replace with yours
-        trackingId: "UA-122604721-3",
-        head: true
+        // The property ID; replace with yours (GA4 format: G-XXXXXXXXXX)
+        trackingIds: ["UA-122604721-3"], // You should migrate to GA4
+        gtagConfig: {
+          anonymize_ip: true,
+        },
+        pluginConfig: {
+          head: true,
+        },
       }
     },
     {
@@ -63,10 +68,10 @@ module.exports = {
     },
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-netlify-cms`,
+    // `gatsby-plugin-netlify-cms`, // Temporarily disabled - needs update for Gatsby v4
     "gatsby-plugin-dark-mode",
     // siteURL is a must for sitemap generation
-    `gatsby-plugin-sitemap`,
-    `gatsby-plugin-offline`
+    `gatsby-plugin-sitemap`
+    // `gatsby-plugin-offline` // Temporarily disabled - needs update for Gatsby v4
   ]
 };
