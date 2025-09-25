@@ -1,6 +1,5 @@
 backend:
   name: github
-  # change repo to your git repository url
   repo: alxsmora1/gatsby-starter-blog
 
 media_folder: static/assets
