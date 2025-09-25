@@ -1,9 +1,10 @@
 [build]
   publish = "public"
-  command = "yarn build"
+  command = "npm run build:netlify"
 
 [build.environment]
   NODE_VERSION = "18.20.3"
+  NPM_FLAGS = "--legacy-peer-deps"
 
 [[plugins]]
   package = "netlify-plugin-gatsby-cache"
