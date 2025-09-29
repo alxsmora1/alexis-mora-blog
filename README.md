@@ -5,3 +5,5 @@
 
 Blog creado para compartir mis conocimientos en tecnología, algunos tips y fragmentos de codigo.
 
+Upgrade to Gatsby v4 and node v20.17.0
+
