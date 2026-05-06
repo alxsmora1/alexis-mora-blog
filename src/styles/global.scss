@@ -449,3 +449,35 @@ body.light {
     top: 8px;
     left: 2px
 }
+
+// Contact form dialog/modal
+.dialog-overlay {
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.dialog {
+  background: var(--card-bg, #fff);
+  color: var(--text-color, #222);
+  border: 1px solid var(--card-bdr, #eee);
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 420px;
+  width: 90%;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+  h2 {
+    margin-bottom: 0.75rem;
+    color: var(--primary-color);
+    font-size: 1.3rem;
+  }
+  p {
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+  }
+  .dialog-footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
