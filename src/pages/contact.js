@@ -21,8 +21,8 @@ const ContactPage = ({ data: { site } }) => {
   const handleSubmit = e => {
     e.preventDefault();
 
-    const form =  document.getElementById("contact-form");
-    let  formData = new FormData(form);
+    const form = document.getElementById("contact-form");
+    let formData = new FormData(form);
 
     fetch("/", {
       method: "POST",
@@ -63,11 +63,17 @@ const ContactPage = ({ data: { site } }) => {
             action="/contact"
             method="post"
             netlify-honeypot="bot-field"
+            data-netlify-recaptcha="true"
             data-netlify="true"
             onSubmit={handleSubmit}
           >
             <input type="hidden" name="name-form" value="contact" />
-            <input type="hidden" name="bot-field" />
+            <p className="hidden">
+              <label>
+                Don’t fill this out if you’re human:{" "}
+                <input name="bot-field" type="text" />
+              </label>
+            </p>
             <div>
               <label htmlFor="name">Nombre</label>
               <input
@@ -104,6 +110,7 @@ const ContactPage = ({ data: { site } }) => {
                 onChange={handleInputChange}
               ></textarea>
             </div>
+            <div data-netlify-recaptcha="true"></div>
             <div style={{ display: "flex", justifyContent: "flex-end" }}>
               <input
                 type="submit"

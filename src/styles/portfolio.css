@@ -156,6 +156,10 @@ sup {
   top: -0.5em;
 }
 
+.hidden {
+  display: none !important;
+}
+
 pre,
 code,
 kbd,
